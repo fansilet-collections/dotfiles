@@ -1,0 +1,53 @@
+---
+namespace: mrbrandao
+name: dotfiles
+version: 0.1.0
+readme: README.md
+authors:
+  - fansible collections
+  - Igor Brandao <mrbrandao>
+
+description: >-
+  Automate your dotfiles with a set of Ansible roles and plugins. Need to easly
+  replicate your dotfiles in many machines? Here you'll find the a way of
+  keeping your dotfiles as a code, while also automated it.
+
+license:
+  # https://spdx.org/licenses/
+  # https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
+  - GPL-2.0-or-later
+
+tags:
+  - dotfiles
+  - vim
+  - tmux
+  - bash
+  - gnome
+  - i3wm
+  - zsh
+  - devdesktop
+  - desktop
+
+dependencies:
+  ansible.posix: ">=1.5.4,<2.0.0"
+  containers.podman: ">=1.11.0,<1.12.0"
+
+repository: |-
+  https://github.com/fansible-collections/dotfiles.git
+
+documentation: https://github.com/fansible-collections/dotfiles.git
+
+homepage: |-
+  https://github.com/fansible-collections/dotfiles.git
+
+issues: |-
+  https://github.com/fansible-collections/dotfiles/issues
+
+build_ignore:
+  - roles/*/molecule
+  - .gitignore
+  - roles/*/.yamllint
+  - roles/*/.git
+  - .pre-commit*
+  - .git*
+  - roles/*/.travis.yml
