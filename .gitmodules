@@ -1,0 +1,15 @@
+[submodule "roles/dotmux"]
+	path = roles/dotmux
+	url = https://github.com/fansible-roles/dotmux.git
+[submodule "roles/dotvim"]
+	path = roles/dotvim
+	url = https://github.com/fansible-roles/dotvim.git
+[submodule "roles/dotbash"]
+	path = roles/dotbash
+	url = https://github.com/fansible-roles/dotbash.git
+[submodule "roles/dotfonts"]
+	path = roles/dotfonts
+	url = https://github.com/fansible-roles/dotfonts.git
+[submodule "roles/dotgnome"]
+	path = roles/dotgnome
+	url = https://github.com/fansible-roles/dotgnome.git
