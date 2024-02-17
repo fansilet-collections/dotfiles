@@ -1,16 +1,18 @@
 ---
-namespace: mrbrandao
+namespace: fansilet
 name: dotfiles
 version: 0.1.0
 readme: README.md
 authors:
+  - fansilet collections
   - fansible collections
   - Igor Brandao <mrbrandao>
 
 description: >-
-  Automate your dotfiles with a set of Ansible roles and plugins. Need to easly
-  replicate your dotfiles in many machines? Here you'll find the a way of
-  keeping your dotfiles as a code, while also automated it.
+  Automate your dotfiles with a set of Ansible roles and plugins.
+  Need to easly replicate your dotfiles in many machines?
+  Here you'll find the a way of keeping your dotfiles as a code,
+  while also automated it.
 
 license:
   # https://spdx.org/licenses/
@@ -19,6 +21,7 @@ license:
 
 tags:
   - dotfiles
+  - fansilet
   - vim
   - tmux
   - bash
@@ -33,15 +36,15 @@ dependencies:
   containers.podman: ">=1.11.0,<1.12.0"
 
 repository: |-
-  https://github.com/fansible-collections/dotfiles.git
+  https://github.com/fansilet-collections/dotfiles.git
 
-documentation: https://github.com/fansible-collections/dotfiles.git
+documentation: https://github.com/fansilet-collections/dotfiles.git
 
 homepage: |-
-  https://github.com/fansible-collections/dotfiles.git
+  https://github.com/fansilet-collections/dotfiles.git
 
 issues: |-
-  https://github.com/fansible-collections/dotfiles/issues
+  https://github.com/fansilet-collections/dotfiles/issues
 
 build_ignore:
   - roles/*/molecule

@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-NAME := mrbrandao-dotfiles
+NAME := fansilet-dotfiles
 VERSION := $(shell awk '/version:/ {print $$2}' galaxy.yml)
 
 .PHONY: help

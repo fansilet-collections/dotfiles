@@ -1,28 +1,28 @@
-# Ansible Collection - mrbrandao.dotfiles
+# Ansible Collection - fansilet.dotfiles
 
 This collection has a set of roles and ansible plugins to install and configure
 multiple applications used for a development desktop.
 
-It started by automating the installation of my `dotfiles` and evolved to an full
+It started by automating the installation of my `dotfiles` and evolved to a full
 automated and customized way of keeping `dotfiles` organized and maintained as a
 code.
 
 Here you'll find settings and configurations to create or sync your dotfiles
 across multiple machines.
 
-Tools are still being added to the collection, but here's a few list of what's
-is already supported: `vim`, `tmux`, `bash`, `gpg`, `gnome` many more to come.  
+Some tools are still being added to the collection, but here's a few list of what
+is already supported: `vim`, `tmux`, `bash`, `gpg`, `gnome` and many more to come.  
 
 
-This collection is maintained by [Fansible
-Collection](https://github.com/fansible-collections), join us to add more cool
+This collection is maintained by [Fansilet
+Collection](https://github.com/fansilet-collections), join us to add more cool
 stuff in our ansible collections. :wink:
 
 #### Installing:  
 
 * Manual install from git URI:  
 ```bash
-ansible-galaxy collection install mrbrandao.dotfiles
+ansible-galaxy collection install fansilet.dotfiles
 ```
   
 * Installing via requirements from galaxy:  
@@ -31,7 +31,7 @@ ansible-galaxy collection install mrbrandao.dotfiles
 # requirements.yml
 ---
 collections:
-  - name: mrbrandao.dotfiles
+  - name: fansilet.dotfiles
     version: 0.1.0
 ```
 
@@ -48,7 +48,7 @@ ansible-galaxy collection build
 * Cloning the latest `development` version:  
 
 ```bash
-git clone --recurse-submodule https://github.com/fansible-collections/dotfiles.git
+git clone --recurse-submodule https://github.com/fansilet-collections/dotfiles.git
 ```
 
 * Using the [`Makefile`](Makefile):  
@@ -79,8 +79,8 @@ License
 
 [GPL-2.0-or-later](https://spdx.org/licenses/GPL-2.0-or-later.html)
 
-Authors and Information
+Authors and Acknowledge
 ------------------------
 
-[Fansible Collection](https://github.com/fansible-collections)  
-Igor Brandão <@mrbrandao>
+* [Fansilet Collection](https://github.com/fansilet-collections)  
+* [Igor Brandão](https://github.com/mrbrandao) <@mrbrandao>  
